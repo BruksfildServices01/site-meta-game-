@@ -1,0 +1,49 @@
+{
+    "nome": "Shelly",
+    "icone": "../../img/icones/raro/Shelly.png",
+    "imagem":"./personagens/img/corpo/raro/Shelly.png",
+    "raridade": "RARO",
+    "tipo": "destruidora",
+    "saude": 7400,
+    "velocidade": "rapido",
+    "ataque": [
+      {
+        "nome": "chumbo grosso",
+        "dano": "5x600",
+        "alcance": "longo",
+        "velocidade_recarga":"normal"
+      }
+    ],
+    "super": [
+        {
+            "nome": "SUPERBALA",
+            "dano": "9x640",
+            "alcance": "longo"
+          }
+    ],
+    "hipercarga": [
+        {
+            "nome": "cano duplo",
+            "efeito": "raio da super fica 33% maior. ",
+            "velocidade": "+25%",
+            "dano": "+25%",
+            "escudo": "+15%"
+        }      
+    ],
+    "Antítese": [
+      {
+          "Bull": "./personagens/img/emojis/raro/Bull.png",
+          "Edgar": "./personagens/img/emojis/epico/Edgar.png",
+          "El-primo": "./personagens/img/emojis/raro/El-primo.png"
+
+      }      
+  ],
+
+  "Nêmesis": [
+    {
+        "Bull": "./personagens/img/emojis/raro/Nita.png"
+    }      
+]
+    
+  }
+  

@@ -1,0 +1,49 @@
+{
+    "nome": "Colt",
+    "icone": "../../img/icones/raro/Colt.png",
+    "imagem":"./personagens/img/corpo/raro/Colt.png",
+    "raridade": "RARO",
+    "tipo": "Destruidor",
+    "saude": 5600,
+    "velocidade": "Normal",
+    "ataque": [
+      {
+        "nome": "Esvaziando o tambor",
+        "dano": "6x720",
+        "alcance": "longo",
+        "velocidade_recarga":"rapido"
+      }
+    ],
+    "super": [
+        {
+            "nome": "Trem-bala",
+            "dano": "9x640",
+            "alcance": "muito longo"
+          }
+    ],
+    "hipercarga": [
+        {
+            "nome": "Empunhadura dupla",
+            "efeito": "raio de ação da super fica 120% maior. ",
+            "velocidade": "+26%",
+            "dano": "+25%",
+            "escudo": "+5%"
+        }      
+    ],
+    "Antítese": [
+      {
+          "Bull": "./personagens/img/emojis/raro/Bull.png",
+          "Edgar": "./personagens/img/emojis/epico/Edgar.png",
+          "El-primo": "./personagens/img/emojis/raro/El-primo.png"
+
+      }      
+  ],
+
+  "Nêmesis": [
+    {
+        "Bull": "./personagens/img/emojis/raro/Nita.png"
+    }      
+]
+    
+  }
+  

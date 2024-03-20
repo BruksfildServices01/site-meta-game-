@@ -1,0 +1,46 @@
+{
+    "nome": "Nita",
+    "icone": "../../img/icones/raro/Nita.png",
+    "imagem":"./personagens/img/corpo/raro/Nita.png",
+    "raridade": "RARO",
+    "tipo": "destruidora",
+    "saude": 8000,
+    "velocidade": "normal",
+    "ataque": [
+      {
+        "nome": "TREMOR",
+        "dano": "1920",
+        "alcance": "normal",
+        "velocidade_recarga":"muito rapido"
+      }
+    ],
+    "super": [
+        {
+            "nome": "Garra a urso",
+            "dano": "800",
+            "alcance": "curto"
+          }
+    ],
+    "hipercarga": [
+        {
+            "nome": "?",
+            "efeito": "?",
+            "velocidade": "?",
+            "dano": "?",
+            "escudo": "?"
+        }      
+    ],
+    "Antítese": [
+      {
+          "Bull": "./personagens/img/emojis/raro/Bull.png"
+      }      
+  ],
+
+  "Nêmesis": [
+    {
+        "Bull": "./personagens/img/emojis/raro/Shelly.png"
+    }      
+]
+    
+  }
+  

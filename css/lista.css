@@ -1,0 +1,41 @@
+.container-lista {
+    max-width: 50%; /* ou uma largura específica conforme necessário */
+    overflow-x: hidden; /* Habilita a rolagem horizontal */
+    display: flex; /* Alinha as colunas horizontalmente */
+    margin-top: 75px;
+    border: 6px solid black;
+    padding: 30px;
+    background-image: linear-gradient(to right,#2edd1c, #10F4FA, #0087fa,#b116ed, #ff0020,#fff11e,#2edd1c); 
+    background-size: 500% 100%; /* Tamanho suficiente para permitir a animação */
+    animation: shift 10s linear infinite; /* Animação suave e contínua */
+    cursor: grab;
+    max-height: 200px;
+    border-radius: 10px;
+    
+}
+
+@keyframes shift {
+    0% { background-position: 0% 50%; }
+    100% { background-position: -100% 50%; }
+  }
+
+  .container-lista:active {
+    cursor: grabbing; /* Muda o cursor enquanto está sendo arrastado */
+}
+  
+
+.lista {
+    display: flex; /* Alinha os elementos (colunas) horizontalmente */
+}
+
+.coluna {
+    display: flex; /* Ativa flexbox para as colunas */
+    flex-direction: column; /* Organiza as imagens em uma coluna */
+    margin-right: 10px; /* Espaço entre as colunas */
+}
+
+.lista img {
+    width: 80px; /* Largura fixa para todas as imagens */
+    margin-bottom: 5px; /* Espaço entre as imagens em uma coluna */
+    border: 6px solid black;
+}

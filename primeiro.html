@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/recet.css">
+    <link rel="stylesheet" href="./css/stylo.css">
+    <link rel="stylesheet" href="./css/lista.css">
+    <link rel="stylesheet" href="./css/personagens.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="./tecnico/logo/logo.PNG" alt=""></div>
+        <ul>
+            <li>Personagens</li>
+            <li>Modos</li>
+            <li>Meta-game</li>
+            <li>Estratégias</li>
+        </ul>
+    </nav>
+    
+
+    <div class="personagens">
+        <h2 class="titulo_personagens">personagens</h2>
+        <div class="container-lista">
+           <div class="lista">
+            <!-- Imagens serão inseridas aqui pelo JavaScript -->
+           </div>
+        </div>
+
+        <div class="teste">
+            <div class="personagem-relacoes">
+                <h3>Relações</h3>
+                <div class="antitese">
+                    <h4>Antítese</h4>
+                </div>
+                <div class="nemesis">
+                    <h4>Nêmesis</h4>
+                </div>
+            </div>
+        </div>
+
+        <div  class="personagens">
+            <div id="personagemDetalhes" class="personagem-container">
+                <h2 class="personagem-nome">Nome: </h2>
+                <div class="personagem-imagem-container">
+                    <img class="personagem-corpo" src="" alt="Shelly">
+                    <div class="personagem-info">
+                        <p class="raridade">Raridade:</p>
+                        <p class="tipo">Tipo: </p>
+                        <p class="saude">Saúde: </p>
+                        <p class="velocidade">Velocidade: </p>
+                    </div>
+                </div>
+               
+                <div class="personagem-habilidades">
+                    <h3>Habilidades</h3>
+                    <div class="ataque">
+                        <button class="mostrar-detalhes" onclick="mostrarDetalhes('ataque-detalhado')">Mostrar Ataque Base</button>
+                        <div id="ataque-detalhado" class="habilidades-detalhadas">
+                        <h4>Ataque</h4>
+                        <p class="attack_name">Nome: </p>
+                        <p class="attack_dano">Dano: </p>
+                        <p class="attack_alcance">Alcance: </p>
+                        <p class="attack_V_recarga" >Velocidade de Recarga: </p>
+                        </div>
+                    </div>
+                    <div class="super">
+                        <button class="mostrar-detalhes" onclick="mostrarDetalhes('super-detalhado')">Mostrar Super</button>
+                        <div id="super-detalhado" class="habilidades-detalhadas">
+                        <h4>Super</h4>
+                        <p class="super_name">Nome: </p>
+                        <p class="super_dano">Dano: </p>
+                        <p class="super_alcance" >Alcance:</p>
+                        </div>
+                    </div>
+                    <div class="hipercarga">
+                        <button class="mostrar-detalhes" onclick="mostrarDetalhes('hipercarga-detalhada')">Mostrar Hipercarga</button>
+                        <div id="hipercarga-detalhada" class="habilidades-detalhadas">
+                        <h4>Hipercarga</h4>
+                        <p class="hiper_name">Nome:</p>
+                        <p class="hiper_efeito">Efeito:</p>
+                        <p class="hiper_velocidade">Velocidade:</p>
+                        <p class="hiper_dano">Dano:</p>
+                        <p class="hiper_escudo">Escudo:</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+            </div>
+        </div>
+<img src="./personagens/descrição/json/" alt="">
+    </div>
+
+    <script src="./javascript/script.js"></script>
+   <script src="./javascript/lista.js"></script>
+   <script src="./javascript/personagens.js"></script>
+</body>
+</html>

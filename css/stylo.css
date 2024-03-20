@@ -1,0 +1,94 @@
+body {
+    background-color: antiquewhite;
+    background-image: url(../tecnico/logo/fundo03.png);
+    background-size: cover; /* Cobrir toda a área sem cortar */
+    background-position: center; /* Centralizar a imagem no elemento */
+  /* Não repetir a imagem */
+}
+/* Estilo básico do menu */
+nav {
+    background-color:#0073df; /* Cor de fundo azul */
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5); /* Sombra para dar um efeito elevado */
+    height: 100px;
+    padding-top: 20px;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+/* Estilo dos itens do menu */
+li {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 8px 16px;
+    background-color: #ffcc00; /* Cor de fundo amarela */
+    color: #005288; /* Cor do texto azul */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fonte com estilo cartoon */
+    font-size: 18px;
+    border-radius: 20px; /* Bordas arredondadas */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para dar um efeito 3D */
+    transition: transform 0.2s, background-color 0.2s; /* Transição suave para hover */
+}
+
+/* Estilo do item do menu ao passar o mouse */
+li:hover {
+    background-color: #ffee44; /* Cor de fundo mais clara */
+    transform: translateY(-3px); /* Levanta o item um pouco */
+    cursor: pointer;
+}
+
+.logo {
+    position: absolute; /* Posicionamento absoluto */
+    top: 10px; /* Espaço do topo */
+    right: 10px; /* Espaço da direita */
+    border-radius: 50%; /* Torna a div completamente redonda */
+    overflow: hidden; /* Garante que a imagem não ultrapasse a borda arredondada */
+}
+
+.logo img {
+    display: block; /* Remove qualquer espaço extra abaixo da imagem */
+    width: 50px; /* Largura da logo */
+    height: 50px; /* Altura da logo */
+    object-fit: cover; /* Garante que a imagem cubra todo o espaço sem distorções */
+}
+
+/*menu do site*/
+
+
+/* div personagens */
+
+
+.personagens {
+    background-color: #0087fa;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 4px;
+    border-radius: 20px;
+    display: flex; /* Adiciona flexbox para alinhar itens horizontalmente */
+}
+
+.titulo_personagens{
+  margin: auto;
+  font-size: 40px;
+  position: absolute;
+  width: 200px;
+  
+}
+
+.teste{
+    width: 600px;
+    height: 190px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 350px;
+}
+
+/* div personagens */

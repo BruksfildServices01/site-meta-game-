@@ -1,0 +1,107 @@
+.personagem-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    margin: 20px;
+    border-radius: 8px;
+    width: 500px;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+.personagem-nome {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 18px; /* Tamanho menor para o título */
+    width: 300px;
+    
+}
+
+.personagem-imagem-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.personagem-imagem-container img {
+    border-radius: 4px;
+    max-height: 250px;
+}
+
+.personagem-icone {
+    width: 80px; /* Menor e mais quadrado */
+    height: 80px; /* Mantenha a proporção quadrada */
+}
+
+.personagem-corpo {
+    width: 100px; /* Mantenha como está */
+    height: auto;
+}
+
+.personagem-info{
+    margin-top: 40px;
+    width: 170px;
+}
+
+.personagem-info p,
+.personagem-habilidades div,
+.personagem-relacoes div {
+    background-color: #fff;
+    padding: 8px; /* Menos padding para tornar mais compacto */
+    margin-bottom: 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-size: 14px; /* Tamanho de fonte menor */
+   
+}
+
+.personagem-habilidades h3,
+.personagem-relacoes h3 {
+    margin-top: 15px;
+    font-size: 16px; /* Tamanho de fonte menor */
+}
+
+button.mostrar-detalhes {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 12px; /* Menos padding para tornar mais compacto */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button.mostrar-detalhes:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos específicos para as seções de habilidades e relações */
+.habilidades-detalhadas,
+.relacoes-detalhadas {
+    display: none;
+}
+
+.relacoes-detalhadas{
+    display: flex; /* Faz com que as seções fiquem lado a lado */
+    justify-content: space-around; 
+}
+
+/* Estilos para Antítese e Nêmesis individualmente */
+.antitese,
+.nemesis {
+    flex: 1; /* Faz com que cada seção ocupe espaço igual */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Estilos para as imagens dentro de Antítese e Nêmesis */
+.antitese img,
+.nemesis img {
+    width: 50px; /* Largura fixa */
+    height: 50px; /* Altura fixa */
+    border-radius: 4px; /* Arredondamento de borda para estética */
+    margin-top: 10px; /* Espaço acima da imagem */
+}
